@@ -2,7 +2,7 @@
 
 var today = new Date();
 var year = today.getFullYear();
-var past = new Date('Apr 16, 1996 15:45:55');
+var past = new Date('Dec 10, 2022 15:45:55');
 var difference = today.getTime() - past.getTime();
 var message = ' years of online travel advice.';
 

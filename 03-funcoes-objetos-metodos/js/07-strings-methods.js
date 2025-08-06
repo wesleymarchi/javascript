@@ -8,7 +8,7 @@ message += '<h2>LowerCase</h2><p>' + saying.toLowerCase() + '</p>';
 message += '<h2>Character index: 12</h2><p>' + saying.charAt(12) + '</p>';
 message += '<h2>First ee</h2><p>' + saying.indexOf('ee') + '</p>';
 message += '<h2>Last e</h2><p>' + saying.lastIndexOf('e') + '</p>';
-message += '<h2>Character index: 8-14</h2><p>' + saying.substring(8, 14) + '</p>';
+message += '<h2>Character index: 8-14</h2><p>' + saying.substring(2, 4) + '</p>';
 message += '<h2>Replace</h2><p>' + saying.replace('me', 'w') + '</p>';
 
 var el = document.getElementById('info');
